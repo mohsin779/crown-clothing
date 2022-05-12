@@ -32,8 +32,12 @@ const App=()=> {
   
 
   return (
+    <div>
     <Directory categories={categories}/>
-  );
+    <h1>hello</h1>
+    </div>
+    );
+   
 }
 
 export default App;
